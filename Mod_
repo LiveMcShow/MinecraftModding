@@ -4,7 +4,7 @@ import java.util.Random;
 public class mod_NAME extends BaseMod
 {
 
-public static final Item NAMEhere = new ItemNAME(2085).setItemName("NAME");
+public static final Item NAMEhere = new ItemNAME(2085).setItemName("NAME").setCreativeTab(CreativeTabs.tabMaterials);
 
 public void load()
     {
