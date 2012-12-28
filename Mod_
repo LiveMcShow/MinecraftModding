@@ -1,0 +1,20 @@
+package net.minecraft.src;
+import java.util.Random;
+
+public class mod_NAME extends BaseMod
+{
+
+public static final Item NAMEhere = new ItemNAME(2085).setItemName("NAME");
+
+public void load()
+    {
+  
+	NAMEhere.iconIndex = ModLoader.addOverride("/gui/items.png" , "/items/pic.png");
+           ModLoader.addName(NAMEhere, "Ingame -Name");
+		   
+		   }
+public String getVersion()
+    {
+        return "3.14159265";
+    }
+}
